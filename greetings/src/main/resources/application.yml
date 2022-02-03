@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: GREETINGSERVICE
+  config:
+    import: optional:configserver:http://localhost:9196
+
+server:
+  port: 8000
+  servlet:
+    context-path: /greeting-service
+
+
+
+
+
+
+app1:
+   greetings:
+       NOR: Howdy
+       EN: hello
+       ES: holla
+       en-GB: helloooooo

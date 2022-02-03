@@ -1,0 +1,272 @@
+2022-02-02 09:29:02.485  INFO 4028 --- [main] com.example.web.WebApplication           : Starting WebApplication using Java 1.8.0_281 on DESKTOP-GH47C5B with PID 4028 (C:\Users\Jos Wambugu\Desktop\New folder\projects\spring-cloud\web\target\classes started by Jos Wambugu in C:\Users\Jos Wambugu\Desktop\New folder\projects\spring-cloud\web)
+2022-02-02 09:29:02.498  INFO 4028 --- [main] com.example.web.WebApplication           : No active profile set, falling back to default profiles: default
+2022-02-02 09:29:02.736  INFO 4028 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9196
+2022-02-02 09:29:02.739  INFO 4028 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=WEBSERVICE, profiles=[default], label=null, version=6e8638e36340167bc223212df08e0b55c782560a, state=null
+2022-02-02 09:29:08.320  INFO 4028 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d439f14a-7b32-3d6f-8856-7a63ed324ed8
+2022-02-02 09:29:13.753  INFO 4028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-02-02 09:29:13.959  INFO 4028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-02 09:29:13.962  INFO 4028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 09:29:15.029  INFO 4028 --- [main] o.a.c.c.C.[.[localhost].[/web-service]   : Initializing Spring embedded WebApplicationContext
+2022-02-02 09:29:15.035  INFO 4028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12274 ms
+2022-02-02 09:29:19.960  INFO 4028 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 09:29:20.247  INFO 4028 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-02 09:29:22.321  INFO 4028 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 09:29:22.999  WARN 4028 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-02 09:29:23.197  INFO 4028 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-02 09:29:23.956  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-02 09:29:24.136  INFO 4028 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 09:29:24.386  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-02 09:29:24.401  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-02 09:29:24.412  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-02 09:29:24.415  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-02 09:29:24.418  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-02 09:29:24.426  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-02 09:29:24.429  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-02 09:29:29.053  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-02 09:29:29.120  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-02 09:29:29.168  INFO 4028 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-02 09:29:29.235  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643783369219 with initial instances count: 2
+2022-02-02 09:29:29.247  INFO 4028 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WEBSERVICE with eureka with status UP
+2022-02-02 09:29:29.271  INFO 4028 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643783369271, current=UP, previous=STARTING]
+2022-02-02 09:29:29.281  INFO 4028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 09:29:29.592  INFO 4028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path '/web-service'
+2022-02-02 09:29:29.664  INFO 4028 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2022-02-02 09:29:29.769  INFO 4028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 09:29:31.448  INFO 4028 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 09:29:31.542  INFO 4028 --- [main] com.example.web.WebApplication           : Started WebApplication in 46.64 seconds (JVM running for 51.13)
+2022-02-02 09:31:57.479  INFO 4028 --- [http-nio-9000-exec-1] o.a.c.c.C.[.[localhost].[/web-service]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-02 09:31:57.482  INFO 4028 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-02 09:31:57.496  INFO 4028 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2022-02-02 09:32:03.829  INFO 4028 --- [http-nio-9000-exec-1] com.example.web.WebController            : Greeting: helloooooo Jos
+2022-02-02 09:32:03.837  INFO 4028 --- [http-nio-9000-exec-1] com.example.web.WebController            : Locale: en-GB
+2022-02-02 09:34:24.441  INFO 4028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 09:39:24.592  INFO 4028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 09:44:24.613  INFO 4028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 09:49:24.628  INFO 4028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 09:54:24.887  INFO 4028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 09:59:24.906  INFO 4028 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 10:03:49.981  INFO 4028 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSERVICE with eureka with status DOWN
+2022-02-02 10:03:49.994  INFO 4028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643785429994, current=DOWN, previous=UP]
+2022-02-02 10:03:49.998  INFO 4028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 10:03:50.451  INFO 4028 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 10:03:51.767  INFO 4028 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-02 10:42:36.651  INFO 3660 --- [main] com.example.web.WebApplication           : Starting WebApplication using Java 1.8.0_281 on DESKTOP-GH47C5B with PID 3660 (C:\Users\Jos Wambugu\Desktop\New folder\projects\spring-cloud\web\target\classes started by Jos Wambugu in C:\Users\Jos Wambugu\Desktop\New folder\projects\spring-cloud\web)
+2022-02-02 10:42:36.779  INFO 3660 --- [main] com.example.web.WebApplication           : No active profile set, falling back to default profiles: default
+2022-02-02 10:42:37.378  INFO 3660 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9196
+2022-02-02 10:42:37.393  INFO 3660 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=WEBSERVICE, profiles=[default], label=null, version=96a6a52f7ed43a5c9eee76687eaba51f76be159a, state=null
+2022-02-02 10:42:46.121  INFO 3660 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ad3301f1-f07e-3d72-8d85-05515227002c
+2022-02-02 10:43:02.154  INFO 3660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-02-02 10:43:02.373  INFO 3660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-02 10:43:02.381  INFO 3660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 10:43:03.635  INFO 3660 --- [main] o.a.c.c.C.[.[localhost].[/web-service]   : Initializing Spring embedded WebApplicationContext
+2022-02-02 10:43:03.642  INFO 3660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 26239 ms
+2022-02-02 10:43:08.466  INFO 3660 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 10:43:08.643  INFO 3660 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-02 10:43:10.112  INFO 3660 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 10:43:11.025  WARN 3660 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-02 10:43:11.209  INFO 3660 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-02 10:43:13.560  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-02 10:43:13.703  INFO 3660 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 10:43:14.082  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-02 10:43:14.088  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-02 10:43:14.094  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-02 10:43:14.098  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-02 10:43:14.101  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-02 10:43:14.105  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-02 10:43:14.111  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-02 10:43:21.429  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-02 10:43:21.460  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-02 10:43:21.476  INFO 3660 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-02 10:43:21.607  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643787801502 with initial instances count: 5
+2022-02-02 10:43:21.660  INFO 3660 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WEBSERVICE with eureka with status UP
+2022-02-02 10:43:21.667  INFO 3660 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643787801666, current=UP, previous=STARTING]
+2022-02-02 10:43:21.687  INFO 3660 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 10:43:22.452  INFO 3660 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 10:43:22.515  INFO 3660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path '/web-service'
+2022-02-02 10:43:22.533  INFO 3660 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2022-02-02 10:43:23.929  INFO 3660 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 10:43:24.110  INFO 3660 --- [main] com.example.web.WebApplication           : Started WebApplication in 69.238 seconds (JVM running for 70.949)
+2022-02-02 10:47:33.558  INFO 3660 --- [http-nio-9000-exec-5] o.a.c.c.C.[.[localhost].[/web-service]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-02 10:47:33.560  INFO 3660 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-02 10:47:33.567  INFO 3660 --- [http-nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-02-02 10:48:14.129  INFO 3660 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 10:53:14.162  INFO 3660 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 10:55:26.938  INFO 3660 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSERVICE with eureka with status DOWN
+2022-02-02 10:55:26.945  INFO 3660 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643788526945, current=DOWN, previous=UP]
+2022-02-02 10:55:26.948  INFO 3660 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 10:55:27.036  INFO 3660 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 10:55:27.865  INFO 3660 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-02 10:55:30.878  INFO 3660 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-02 10:55:31.360  INFO 3660 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - deregister  status: 200
+2022-02-02 10:55:31.441  INFO 3660 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-02 10:58:30.454  INFO 6296 --- [main] com.example.web.WebApplication           : Starting WebApplication using Java 1.8.0_281 on DESKTOP-GH47C5B with PID 6296 (C:\Users\Jos Wambugu\Desktop\New folder\projects\spring-cloud\web\target\classes started by Jos Wambugu in C:\Users\Jos Wambugu\Desktop\New folder\projects\spring-cloud\web)
+2022-02-02 10:58:30.490  INFO 6296 --- [main] com.example.web.WebApplication           : No active profile set, falling back to default profiles: default
+2022-02-02 10:58:30.781  INFO 6296 --- [main] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9196
+2022-02-02 10:58:30.784  INFO 6296 --- [main] o.s.b.context.config.ConfigDataLoader    : Located environment: name=WEBSERVICE, profiles=[default], label=null, version=96a6a52f7ed43a5c9eee76687eaba51f76be159a, state=null
+2022-02-02 10:58:38.460  INFO 6296 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=937b6472-df7b-33e8-8b13-76796ce4c9b5
+2022-02-02 10:58:51.112  INFO 6296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-02-02 10:58:51.504  INFO 6296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-02 10:58:51.510  INFO 6296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-02 10:58:52.288  INFO 6296 --- [main] o.a.c.c.C.[.[localhost].[/web-service]   : Initializing Spring embedded WebApplicationContext
+2022-02-02 10:58:52.306  INFO 6296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 21509 ms
+2022-02-02 10:58:57.491  INFO 6296 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 10:59:01.001  INFO 6296 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 10:59:01.052  INFO 6296 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-02 10:59:01.394  WARN 6296 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-02 10:59:01.453  INFO 6296 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-02 10:59:01.621  INFO 6296 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-02 10:59:02.129  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-02 10:59:02.186  INFO 6296 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 10:59:02.362  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-02 10:59:02.366  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-02 10:59:02.371  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-02 10:59:02.375  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-02 10:59:02.381  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-02 10:59:02.390  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-02 10:59:02.398  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-02 10:59:06.059  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-02 10:59:06.079  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-02 10:59:06.095  INFO 6296 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-02 10:59:06.137  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643788746122 with initial instances count: 4
+2022-02-02 10:59:06.142  INFO 6296 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WEBSERVICE with eureka with status UP
+2022-02-02 10:59:06.149  INFO 6296 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643788746149, current=UP, previous=STARTING]
+2022-02-02 10:59:06.159  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 10:59:06.609  INFO 6296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path '/web-service'
+2022-02-02 10:59:06.663  INFO 6296 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2022-02-02 10:59:06.772  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 10:59:08.191  INFO 6296 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 10:59:08.300  INFO 6296 --- [main] com.example.web.WebApplication           : Started WebApplication in 55.534 seconds (JVM running for 57.273)
+2022-02-02 11:02:50.682  INFO 6296 --- [http-nio-9000-exec-2] o.a.c.c.C.[.[localhost].[/web-service]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-02 11:02:50.930  INFO 6296 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-02 11:02:51.425  INFO 6296 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 492 ms
+2022-02-02 11:03:12.219  INFO 6296 --- [http-nio-9000-exec-2] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 11:03:21.406  INFO 6296 --- [http-nio-9000-exec-2] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9196
+2022-02-02 11:03:29.169  INFO 6296 --- [http-nio-9000-exec-2] o.s.b.context.config.ConfigDataLoader    : Located environment: name=WEBSERVICE, profiles=[default], label=null, version=96a6a52f7ed43a5c9eee76687eaba51f76be159a, state=null
+2022-02-02 11:03:33.873  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-02 11:03:36.981  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-02 11:03:38.057  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - deregister  status: 200
+2022-02-02 11:03:38.428  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-02 11:03:38.511  INFO 6296 --- [http-nio-9000-exec-2] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-02 11:03:38.590  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-02 11:03:38.593  INFO 6296 --- [http-nio-9000-exec-2] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:03:38.602  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-02 11:03:38.604  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-02 11:03:38.609  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-02 11:03:38.613  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-02 11:03:38.618  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-02 11:03:38.627  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-02 11:03:38.632  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-02 11:03:39.258  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-02 11:03:39.266  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-02 11:03:39.271  INFO 6296 --- [http-nio-9000-exec-2] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-02 11:03:39.279  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643789019278 with initial instances count: 5
+2022-02-02 11:03:39.292  INFO 6296 --- [http-nio-9000-exec-2] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSERVICE with eureka with status DOWN
+2022-02-02 11:03:39.294  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643789019293, current=DOWN, previous=STARTING]
+2022-02-02 11:03:39.300  INFO 6296 --- [http-nio-9000-exec-2] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WEBSERVICE with eureka with status UP
+2022-02-02 11:03:39.304  INFO 6296 --- [http-nio-9000-exec-2] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643789019304, current=UP, previous=DOWN]
+2022-02-02 11:03:39.301  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 11:03:39.600  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 11:03:39.600  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 11:03:39.968  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 11:04:49.780  WARN 6296 --- [http-nio-9000-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-02-02 11:05:24.500  INFO 6296 --- [http-nio-9000-exec-6] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 11:05:24.589  INFO 6296 --- [http-nio-9000-exec-6] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9196
+2022-02-02 11:05:30.391  INFO 6296 --- [http-nio-9000-exec-6] o.s.b.context.config.ConfigDataLoader    : Located environment: name=WEBSERVICE, profiles=[default], label=null, version=96a6a52f7ed43a5c9eee76687eaba51f76be159a, state=null
+2022-02-02 11:05:32.382  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-02 11:05:35.425  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-02 11:05:35.446  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - deregister  status: 200
+2022-02-02 11:05:35.564  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-02 11:05:35.573  INFO 6296 --- [http-nio-9000-exec-6] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-02 11:05:35.583  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-02 11:05:35.585  INFO 6296 --- [http-nio-9000-exec-6] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:05:35.592  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-02 11:05:35.594  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-02 11:05:35.595  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-02 11:05:35.596  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-02 11:05:35.597  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-02 11:05:35.598  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-02 11:05:35.600  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-02 11:05:35.732  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-02 11:05:35.739  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-02 11:05:35.742  INFO 6296 --- [http-nio-9000-exec-6] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-02 11:05:35.746  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643789135746 with initial instances count: 5
+2022-02-02 11:05:35.757  INFO 6296 --- [http-nio-9000-exec-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSERVICE with eureka with status DOWN
+2022-02-02 11:05:35.758  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643789135758, current=DOWN, previous=STARTING]
+2022-02-02 11:05:35.761  INFO 6296 --- [http-nio-9000-exec-6] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WEBSERVICE with eureka with status UP
+2022-02-02 11:05:35.761  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 11:05:35.762  INFO 6296 --- [http-nio-9000-exec-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643789135762, current=UP, previous=DOWN]
+2022-02-02 11:05:35.923  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 11:05:35.926  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 11:05:36.056  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 11:06:08.721  WARN 6296 --- [http-nio-9000-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-02-02 11:07:31.253  INFO 6296 --- [http-nio-9000-exec-1] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-02-02 11:07:31.362  INFO 6296 --- [http-nio-9000-exec-1] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9196
+2022-02-02 11:07:36.493  INFO 6296 --- [http-nio-9000-exec-1] o.s.b.context.config.ConfigDataLoader    : Located environment: name=WEBSERVICE, profiles=[default], label=null, version=cf2db74398d6156e0ea9d80127b191d1f0b4b46f, state=null
+2022-02-02 11:07:37.290  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-02 11:07:40.305  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-02 11:07:40.320  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - deregister  status: 200
+2022-02-02 11:07:40.414  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-02 11:07:40.430  INFO 6296 --- [http-nio-9000-exec-1] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-02 11:07:40.446  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-02 11:07:40.446  INFO 6296 --- [http-nio-9000-exec-1] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:07:40.461  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-02 11:07:40.465  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-02 11:07:40.467  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-02 11:07:40.470  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-02 11:07:40.471  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-02 11:07:40.473  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-02 11:07:40.474  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-02 11:07:40.546  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-02 11:07:40.549  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-02 11:07:40.553  INFO 6296 --- [http-nio-9000-exec-1] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-02 11:07:40.556  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643789260556 with initial instances count: 5
+2022-02-02 11:07:40.562  INFO 6296 --- [http-nio-9000-exec-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSERVICE with eureka with status DOWN
+2022-02-02 11:07:40.564  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643789260564, current=DOWN, previous=STARTING]
+2022-02-02 11:07:40.567  INFO 6296 --- [http-nio-9000-exec-1] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application WEBSERVICE with eureka with status UP
+2022-02-02 11:07:40.569  INFO 6296 --- [http-nio-9000-exec-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643789260569, current=UP, previous=DOWN]
+2022-02-02 11:07:40.566  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 11:07:40.653  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 11:07:40.663  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
+2022-02-02 11:07:40.726  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000 - registration status: 204
+2022-02-02 11:12:40.648  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:13:16.503  INFO 6296 --- [http-nio-9000-exec-2] com.example.web.WebController            : Greeting: helloooooo Jos
+2022-02-02 11:13:16.506  INFO 6296 --- [http-nio-9000-exec-2] com.example.web.WebController            : Locale: en-GB
+2022-02-02 11:17:40.696  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:22:47.116  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:27:47.163  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:32:47.186  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:37:47.847  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:42:48.507  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:47:48.607  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:52:48.775  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 11:57:50.096  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:02:51.281  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:08:12.100  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:08:35.691  WARN 6296 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) [na:1.8.0_281]
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:68) ~[eureka-client-1.10.17.jar:1.10.17]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-02-02 12:13:12.983  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:18:18.590  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:23:18.775  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:28:18.884  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:33:18.947  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:38:18.970  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:43:19.115  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:48:19.137  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:53:19.254  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 12:58:19.701  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 13:03:19.762  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 13:08:19.789  INFO 6296 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-02 13:11:47.478  INFO 6296 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSERVICE with eureka with status DOWN
+2022-02-02 13:11:47.545  INFO 6296 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643796707544, current=DOWN, previous=UP]
+2022-02-02 13:11:47.550  INFO 6296 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_WEBSERVICE/localhost:WEBSERVICE:9000: registering service...
